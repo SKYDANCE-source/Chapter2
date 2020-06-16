@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/Test2">
+
+    <TextView
+        android:id="@+id/TEXT"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#ccc"
+        android:gravity="right|bottom"
+        android:text="Vertical LinearLayout"
+        android:textAllCaps="false"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/LID">
+
+
+        <Button
+            android:id="@+id/view1"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="New Button"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/view2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="New Button"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/view3"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="New Button"
+            android:textAllCaps="false" />
+        <Button
+            android:id="@+id/view7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Button3"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/view8"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button4"
+            android:textAllCaps="false" />
+        <TextView
+            android:id="@+id/view4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#9cc"
+            android:text="Horizontal LinearLayout"
+            android:textAllCaps="false"
+            android:textSize="32sp" />
+        <Button
+            android:id="@+id/view5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Button1"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/view6"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button2"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+</LinearLayout>
